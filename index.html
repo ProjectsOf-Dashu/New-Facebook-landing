@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Background Repeat Example</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-t from-[#fca311] to-[#fefae0] h-screen">
+
+  <header class="bg-white">
+
+    <nav class="flex justify-evenly shadow-lg">
+
+      <div class="w-40">
+
+        <img src="facebook.svg">
+
+      </div>
+
+      <ul class="flex items-center gap-12 text-1xl">
+        <li class="font-custom text-gray-900 hover:text-gray-500 cursor-pointer uppercase">Home</li>
+        <li class="font-custom text-gray-900 hover:text-gray-500 cursor-pointer uppercase">About</li>
+        <li class="font-custom text-gray-900 hover:text-gray-500 cursor-pointer uppercase">Produts</li>
+        <li class="font-custom text-gray-900 hover:text-gray-500 cursor-pointer uppercase">Contact</li>
+      </ul>
+
+    </nav>
+  </header>
+  <section class="flex flex-col md:flex-row justify-evenly items-center">
+    <div class="left w-full md:w-[400px] mt-8 bg-cover">
+      <img src="facebook.svg">
+      <p class="font-medium w-[25vw] text-xl mb-20 text-gray-700 md:w-96 sm:w-96 sm:mx-16 mysm:mx-16 mysm:w-96 lg:min-w-full lg:text-left">Facebook helps you connect and share with the people in your
+        life.</p>
+    </div>
+    <div class="right bg-[#fff] w-96 flex flex-col px-10 py-8 mt-4 mb-10 lg:mt-10 shadow-2xl rounded-xl hover:scale-105 transition-transform duration-700 h-auto">
+
+      <input class="border border-gray-300 py-4 p-2 rounded-lg text-center" type="email"
+        placeholder="Enter address or phone number">
+
+      <div class="mt-4">
+        <input class="border border-gray-300 py-4 rounded-lg p-16 " type="password" placeholder="password">
+      </div>
+
+      <button class="bg-blue-500 mt-6 p-2 text-white font-custom rounded-sm hover:bg-blue-600 active:bg-blue-700" type="button">Log in</button>
+
+      <p class="text-center text-blue-700 mt-4 my-4 cursor-pointer hover:underline">Forgotten password?</p> </a>
+
+      <hr>
+
+      <div class="flex flex-col items-center mt-6">
+        <button class="bg-green-500 w-fit p-2 text-center rounded-sm text-white hover:bg-green-600 active:bg-green-700"> Create new account</button>
+
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
